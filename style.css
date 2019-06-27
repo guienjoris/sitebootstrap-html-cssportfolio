@@ -31,6 +31,7 @@
   color: white;
   top: 40%;
   left: 5%;
+  width: 90%;
 }
 
 .jumbotron .container_header h1, .jumbotron .container_header p {
@@ -228,7 +229,7 @@
   display: -ms-flexbox;
   display: flex;
   padding: 8%;
-  width: 100%;
+  width: 70%;
   margin-left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
@@ -245,12 +246,88 @@
 }
 
 #container_price .price_card1 {
-  width: 30%;
-  margin: 0% 10%;
+  width: 70%;
+  padding: 1% 1%;
+  margin: 1%;
+}
+
+#container_price .price_card1:hover {
+  border: 1px solid black;
+  -webkit-box-shadow: 1px 1px 1px 0.5px black;
+          box-shadow: 1px 1px 1px 0.5px black;
+  border-radius: 5px;
+  background-color: white;
 }
 
 #container_price .price_card2 {
+  width: 70%;
+  padding: 1% 1%;
+  margin: 1%;
+}
+
+#container_price .price_card2:hover {
+  border: 1px solid black;
+  -webkit-box-shadow: 1px 1px 1px 0.5px black;
+          box-shadow: 1px 1px 1px 0.5px black;
+  border-radius: 5px;
+  background-color: white;
+}
+
+footer {
+  background-color: #182432;
+  padding: 5%;
+}
+
+footer p, footer li {
+  color: white;
+}
+
+footer .gray {
+  color: gray;
+}
+
+footer #container_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  margin-left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+footer #container_footer p {
+  width: 50%;
+}
+
+footer #container_footer input {
+  width: 80%;
+}
+
+footer #container_footer .gray {
+  font-size: 80%;
+  width: 150%;
+}
+
+footer #container_list_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 30%;
-  margin: 0% 10%;
+  margin-left: 30%;
+  margin-top: 5%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer #container_list_footer li {
+  list-style-type: none;
+}
+
+footer .marge {
+  margin-bottom: 20%;
 }
 /*# sourceMappingURL=style.css.map */
